@@ -52,9 +52,16 @@ and development effort.
 Quickstart
 ----------
 
-Install `voc`, then run the example script::
+Install `voc`::
 
     $ pip install voc
+
+If pip complains about "no matching distribution found" while trying to collect `voc` (or other similar errors), it's possible to install `voc` like this::
+
+    $ pip install git+https://github.com/pybee/voc.git
+
+Once installed, run the example script::
+
     $ python -m voc tests/example.py org.pyee
     Creating class 'example'...
     Writing example.class...

@@ -89,6 +89,11 @@ Documentation
 
 Documentation for VOC can be found on `Read The Docs`_.
 
+Supported Python Versions
+-------------------------
+
+VOC requires Python 3.x
+
 Why "VOC"?
 ----------
 
